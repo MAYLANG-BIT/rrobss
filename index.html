@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keynesrobie | Content Creation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="mech-nav">
+        <div class="logo">
+            <img src="logo.png" alt="Logo" class="nav-logo-img">
+            <span class="crosshair">+</span> Keynesrobie Raissen D.C. Cuizon
+        </div>
+        <div class="nav-pills">
+            <a href="#about" class="pill active">About</a>
+            <a href="#content" class="pill">Content</a>
+            <a href="#contact" class="pill">Contact</a>
+        </div>
+        <div class="status">
+            <span>[ SYSTEM.ONLINE ]</span>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="about">
+        <div class="hero-text">
+            <div class="label">[ TWO-WHEELED CREATOR ]</div>
+            <h1>Keynesrobie<br>Raissen D.C.<br>Cuizon</h1>
+            <p class="subtitle">Documenting the ride, the build, and the lifestyle.</p>
+        </div>
+        
+        <div class="hero-visual">
+            <div class="image-wrapper">
+                <img src="napitikan.jpg" alt="Keynesrobie on motorcycle" class="main-photo">
+                <div class="mech-overlay">
+                    <span class="corner tl"></span>
+                    <span class="corner tr"></span>
+                    <span class="corner bl"></span>
+                    <span class="corner br"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENT SYSTEM -->
+    <section class="system-section" id="content">
+        <div class="section-label">[ WHAT I DO ]</div>
+        <h2 class="section-title">From the garage<br>to the open road.</h2>
+
+        <div class="content-list">
+            
+            <!-- Item 1 -->
+            <div class="list-item">
+                <div class="item-number">01</div>
+                <div class="item-visual"><img src="motor.jpg" alt="Motorcycle" class="item-thumb"></div>
+                <h3 class="item-name">The Machine</h3>
+                <div class="item-desc">
+                    Turning wrenches and twisting throttles. From engine rebuilds to custom modifications, exploring the raw mechanics and the freedom of the ride.
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="list-item">
+                <div class="item-number">02</div>
+                <div class="item-visual"><img src="me.jpg" alt="Lifestyle" class="item-thumb"></div>
+                <h3 class="item-name">The Lifestyle</h3>
+                <div class="item-desc">
+                    Balancing the grind of daily responsibilities and side hustles with the thrill of the asphalt. Life lessons learned from thousands of miles in the saddle.
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="list-item">
+                <div class="item-number">03</div>
+                <div class="item-visual"><img src="me1.jpg" alt="Travelling" class="item-thumb"></div>
+                <h3 class="item-name">The Journey</h3>
+                <div class="item-desc">
+                    Documenting two-wheeled adventures across winding mountain passes and coastal highways. Destinations include Japan, New Zealand, Taiwan, Boracay, and Bicol.
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="list-item">
+                <div class="item-number">04</div>
+                <div class="item-visual"><img src="handcam.jpg" alt="Gaming Handcam" class="item-thumb"></div>
+                <h3 class="item-name">Gaming & Speed</h3>
+                <div class="item-desc">
+                    Translating split-second decision making from the racetrack to the screen. High-stakes action in the Mobile Legends Esports competitive scene.
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="list-item">
+                <div class="item-number">05</div>
+                <div class="item-visual"><img src="pitstop.jpg" alt="Pit Stop Food" class="item-thumb"></div>
+                <h3 class="item-name">Pit Stop Fuel</h3>
+                <div class="item-desc">
+                    Fueling up for long rides with local comfort food. Hunting down the best late-night Pares, Tapsilog, and spicy Bicol Express along the route.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER / CONTACT FORM -->
+    <footer class="contact-section" id="contact">
+        <div class="section-label">[ CONTACT ]</div>
+        <h2>Let's hit the road.</h2>
+        
+        <form class="mech-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+            </div>
+            
+            <div class="form-group">
+                <label for="message">MESSAGE</label>
+                <textarea id="message" name="message" rows="5" required placeholder="What's on your mind?"></textarea>
+            </div>
+            
+            <button type="submit" class="action-btn form-submit">Send↗</button>
+        </form>
+    </footer>
+
+</body>
+</html>
